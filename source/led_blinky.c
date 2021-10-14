@@ -14,12 +14,12 @@
  ******************************************************************************/
 #define BOARD_LED_GPIO_RED     			BOARD_LED_RED_GPIO
 #define BOARD_LED_GPIO_PIN_RED 			BOARD_LED_RED_PIN
-
+/*
 #define BOARD_LED_GPIO_GREEN     		BOARD_LED_GREEN_GPIO
 #define BOARD_LED_GPIO_PIN_GREEN 		BOARD_LED_GREEN_PIN
 
 #define BOARD_LED_GPIO_BLUE     		BOARD_LED_BLUE_GPIO
-#define BOARD_LED_GPIO_PIN_BLUE 		BOARD_LED_BLUE_PIN
+#define BOARD_LED_GPIO_PIN_BLUE 		BOARD_LED_BLUE_PIN*/
 
 
 /*******************************************************************************
@@ -70,11 +70,11 @@ int main(void)
     while (1)
     {
         /* Delay 1000 ms */
-        SysTick_DelayTicks(1000U);
+        SysTick_DelayTicks(100U);
         GPIO_PortToggle(BOARD_LED_GPIO_RED, 1u << BOARD_LED_GPIO_PIN_RED);
-        SysTick_DelayTicks(1000U);
+        /*SysTick_DelayTicks(100U);
         GPIO_PortToggle(BOARD_LED_GPIO_GREEN, 1u << BOARD_LED_GPIO_PIN_GREEN);
-        SysTick_DelayTicks(1000U);
-        GPIO_PortToggle(BOARD_LED_GPIO_BLUE, 1u << BOARD_LED_GPIO_PIN_BLUE);
+        SysTick_DelayTicks(100U);
+        GPIO_PortToggle(BOARD_LED_GPIO_BLUE, 1u << BOARD_LED_GPIO_PIN_BLUE);*/
     }
 }
