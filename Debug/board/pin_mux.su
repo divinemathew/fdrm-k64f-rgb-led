@@ -1,0 +1,4 @@
+C:\Users\Divine A Mathew\Documents\MCUXpressoIDE_11.4.1_6260\workspace\frdmk64f_led_blinky\drivers/fsl_clock.h:668:20:CLOCK_EnableClock	24	static
+C:\Users\Divine A Mathew\Documents\MCUXpressoIDE_11.4.1_6260\workspace\frdmk64f_led_blinky\drivers/fsl_port.h:374:20:PORT_SetPinMux	24	static
+../board/pin_mux.c:38:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:61:6:BOARD_InitPins	24	static

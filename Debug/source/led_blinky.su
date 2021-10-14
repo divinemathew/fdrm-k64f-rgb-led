@@ -1,0 +1,6 @@
+C:\Users\Divine A Mathew\Documents\MCUXpressoIDE_11.4.1_6260\workspace\frdmk64f_led_blinky\CMSIS/core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+C:\Users\Divine A Mathew\Documents\MCUXpressoIDE_11.4.1_6260\workspace\frdmk64f_led_blinky\CMSIS/core_cm4.h:2017:26:SysTick_Config	16	static
+C:\Users\Divine A Mathew\Documents\MCUXpressoIDE_11.4.1_6260\workspace\frdmk64f_led_blinky\drivers/fsl_gpio.h:221:20:GPIO_PortToggle	16	static
+../source/led_blinky.c:37:6:SysTick_Handler	4	static
+../source/led_blinky.c:45:6:SysTick_DelayTicks	16	static
+../source/led_blinky.c:56:5:main	8	static
