@@ -2700,28 +2700,28 @@ LOAD linker stubs
  .debug_line    0x00005121      0x4b1 ./board/clock_config.o
  .debug_line    0x000055d2      0x45b ./board/pin_mux.o
 
-.debug_str      0x00000000    0x80357
+.debug_str      0x00000000    0x8035f
  .debug_str     0x00000000    0x79c17 ./utilities/fsl_assert.o
                               0x79ca2 (size before relaxing)
  .debug_str     0x00079c17     0x1614 ./utilities/fsl_debug_console.o
                               0x7b314 (size before relaxing)
  .debug_str     0x0007b22b      0x7e0 ./startup/startup_mk64f12.o
                                0x364c (size before relaxing)
- .debug_str     0x0007ba0b     0x148f ./source/led_blinky.o
-                              0x7b919 (size before relaxing)
- .debug_str     0x0007ce9a       0x1f ./source/semihost_hardfault.o
+ .debug_str     0x0007ba0b     0x1497 ./source/led_blinky.o
+                              0x7b921 (size before relaxing)
+ .debug_str     0x0007cea2       0x1f ./source/semihost_hardfault.o
                                0x2df1 (size before relaxing)
- .debug_str     0x0007ceb9     0x1e39 ./drivers/fsl_clock.o
+ .debug_str     0x0007cec1     0x1e39 ./drivers/fsl_clock.o
                               0x7c33f (size before relaxing)
- .debug_str     0x0007ecf2      0x181 ./drivers/fsl_gpio.o
+ .debug_str     0x0007ecfa      0x181 ./drivers/fsl_gpio.o
                               0x7a61f (size before relaxing)
- .debug_str     0x0007ee73      0xe70 ./drivers/fsl_uart.o
+ .debug_str     0x0007ee7b      0xe70 ./drivers/fsl_uart.o
                               0x7bc79 (size before relaxing)
- .debug_str     0x0007fce3       0xc3 ./device/system_MK64F12.o
+ .debug_str     0x0007fceb       0xc3 ./device/system_MK64F12.o
                               0x78431 (size before relaxing)
- .debug_str     0x0007fda6      0x3b7 ./board/clock_config.o
+ .debug_str     0x0007fdae      0x3b7 ./board/clock_config.o
                               0x7aca6 (size before relaxing)
- .debug_str     0x0008015d      0x1fa ./board/pin_mux.o
+ .debug_str     0x00080165      0x1fa ./board/pin_mux.o
                               0x7a38f (size before relaxing)
 
 .comment        0x00000000       0x4d
